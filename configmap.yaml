@@ -1,0 +1,9 @@
+apiVersion: v1 
+kind: ConfigMap
+metadata:
+  name: roboshop 
+  labels:
+   purpose: config-demo 
+data:
+  COURSE: 'Devops'
+  DURATION: "120Hr"

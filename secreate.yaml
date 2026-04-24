@@ -1,0 +1,11 @@
+apiVersion: v1 
+kind: Secreate 
+metadata:
+ name: secret 
+ labels:
+   purpose: demo 
+
+type: opque 
+data:
+  username: "admin" 
+  password: "admin@123"
